@@ -7,10 +7,10 @@ public class EtapaTorneo {
   private int cantidadEquipos;
   private ArrayList<Equipo> equipos;
 
-  public EtapaTorneo(String nombreEtapa) {
+  public EtapaTorneo(String nombreEtapa) { // Constructor
     this.nombreEtapa = nombreEtapa;
     this.equipos = new ArrayList<>();
-
+    //Considere aplicar el constructor dependiendo de la eleccion de el usuario
     switch (nombreEtapa) {
       case "Octavos de Final":
         this.cantidadEquipos = 16;
@@ -25,7 +25,7 @@ public class EtapaTorneo {
         this.cantidadEquipos = 0;
     }
   }
-
+//Metodos
   public String getNombreEtapa() {
     return nombreEtapa;
   }

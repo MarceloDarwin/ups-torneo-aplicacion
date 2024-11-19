@@ -5,18 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3767f4a-0b6b-4a89-88f8-89bf7eb4964f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ups/torneo/aplicacion/controlador/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ups/torneo/aplicacion/controlador/TorneoControlador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ups/torneo/aplicacion/modelo/Equipo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ups/torneo/aplicacion/modelo/EtapaTorneo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ups/torneo/aplicacion/vista/IngresoEquipoVista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ups/torneo/aplicacion/vista/ResultadoVista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ups/torneo/aplicacion/vista/SeleccionEtapaVista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ups/torneo/aplicacion/servicio/ArchivoServicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ups/torneo/aplicacion/servicio/AvanceServicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ups/torneo/aplicacion/servicio/PartidosServicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ups/torneo/aplicacion/vista/PartidosVista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ups/torneo/aplicacion/controlador/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ups/torneo/aplicacion/controlador/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ups/torneo/aplicacion/controlador/TorneoControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ups/torneo/aplicacion/controlador/TorneoControlador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ups/torneo/aplicacion/modelo/Equipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ups/torneo/aplicacion/modelo/Equipo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ups/torneo/aplicacion/modelo/EtapaTorneo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ups/torneo/aplicacion/modelo/EtapaTorneo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ups/torneo/aplicacion/vista/IngresoEquipoVista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ups/torneo/aplicacion/vista/IngresoEquipoVista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ups/torneo/aplicacion/vista/ResultadoVista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ups/torneo/aplicacion/vista/ResultadoVista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ups/torneo/aplicacion/vista/SeleccionEtapaVista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ups/torneo/aplicacion/vista/SeleccionEtapaVista.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -33,14 +34,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/MarceloDarwin/ups-torneo-aplicacion.git",
-    "accountId": "d167103b-4d8a-4548-940a-751830aa47ea"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Marcelo72003&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MarceloDarwin/ups-torneo-aplicacion.git&quot;,
+    &quot;accountId&quot;: &quot;d167103b-4d8a-4548-940a-751830aa47ea&quot;
+  }
+}</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -56,12 +63,22 @@
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.Principal.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/marce/Desktop/Java/Unidad3/src/main/java/org/example/Main.java&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ups.torneo.aplicacion.servicio" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
